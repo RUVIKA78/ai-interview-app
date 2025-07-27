@@ -11,7 +11,7 @@ import { protect } from './middlewares/auth.middleware.js'
 import { generateExplanation, generateQuestion } from './controllers/ai.controller.js'
 const app=express()
 
-const PORT=4000
+const PORT = process.env.PORT || 4000
 // console.log(PORT)
 
 config()
