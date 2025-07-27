@@ -31,7 +31,7 @@ const InterviewPrep = () => {
 
   const [isLoading, setIsLoading] = useState(false)
 
-  const [isUpdateLoader, setIsUpdateLoader] = useState(false)
+  const [isUpdateLoader] = useState(false)
 
   const fetchSessionDetailById = async () => {
     try {
